@@ -1,0 +1,306 @@
+* 
+{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+.containerB{
+    max-width: 100%;
+}
+
+/* Menu */
+
+header{
+    height: 100px;
+    background-color: #7AC8AE;
+}
+
+.logo{
+    float: left;
+}
+
+.logo img{
+    height: 90px;
+}
+
+.menu-desk{
+    float: left;
+    padding-left: 5%;
+}
+
+.menu-desk ul{
+    position: relative;
+    margin-top: 30px;
+}
+
+.menu-desk a{
+    color: #C7FFDF;
+    text-decoration: none;
+}
+
+.menu-desk li{
+    display: inline-block;
+}
+
+.menu-desk li.selected{
+    font-weight: bold;    
+    text-decoration: underline;
+    color: #FDFFD2;
+}
+
+.menu-desk a:hover{
+    text-decoration: underline;
+    text-decoration: bolder;
+    color: #FDFFD2;
+}
+
+
+/* Introdução */
+
+.Intro {
+    background-color: #F6FFE0;
+    height: 675px;
+    padding-top: 20px;
+}
+
+.imagemIntro {
+    width: 53%; 
+    height: 635px;   
+    float: left;
+}
+
+.introtxt h2 {
+    font-size: 50px;
+    text-align: center;
+}
+
+.introtxt h3 {
+    font-size: 35px;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.introtxt p {
+    font-size: 35px;
+    padding-top: 30px;
+}
+
+.introtxt {
+    width: 47%;
+    float: right;
+    font-size: 20px;
+}
+
+/* O que é */
+
+.Explicacao {
+    height: 350px;
+    background-color: #F6FFE0;
+}
+
+.Explicacao h3{
+    font-size: 30px;
+}
+.Explicacao p{
+    font-size: 25px;
+    padding: 5px;
+}
+
+/* Tipos-EJA */
+
+.Tipos{
+    height: 400px;
+    background-color: #F6FFE0;
+}
+
+.Tipos h3 {
+    font-size: 30px;
+    padding-top: 20px;
+}
+
+.Tipos p {
+    font-size: 25px;
+    padding-bottom: 5px;
+}
+
+/*Encceja*/
+
+.Encceja {
+    height: 150px;
+    background-color: #F6FFE0;
+}
+
+.Encceja h3{
+    font-size: 30px;
+}
+
+.Encceja p{
+    font-size: 25px;
+}
+
+/*Matricula*/
+
+.Matricula {
+    padding-top: 50px;
+    height: 750px;
+    background-color: #F6FFE0;
+}
+
+.TxtMatricula {
+    width: 40%;
+    float: left;
+}
+
+.TxtMatricula h3{
+    font-size: 30px;
+}
+
+.TxtMatricula p{
+    font-size: 25px;
+}
+
+.TxtMatricula ul{
+    padding-left: 30px;
+    padding-top: 70px;
+    font-size: 25px;
+}
+
+.ImgMatricula {
+    width: 55%;
+
+    float: right;
+}
+
+/*Motivação*/
+
+.Motivacao {
+    height: 500px;
+    background-color: #F6FFE0;
+}
+
+.Motivacao h3{
+    font-size: 30px;
+}
+
+.Motivacao p{
+    font-size: 25px;
+}
+
+/*Rodapé*/
+.w33{
+    float: left;
+    width: 33.3%;
+}
+
+.footer1{
+    background: rgba(171, 255, 196, 0.849);
+    padding: 20px 0px;
+    color: rgb(0, 88, 55);
+    height: 250px;
+}
+
+.footer1 h2{
+    font-weight: normal;
+    font-size: 24px;
+}
+
+.footer1 a{
+    display: block;
+    color: black;
+    margin-top: 10px;
+    float: left;
+}
+
+.redes a{
+    display: inline-block;
+    float: right;
+}
+
+.footer2{
+    padding: 15px 0px;
+    background: rgb(0, 88, 55);
+    text-align: center;
+    color: white;
+    height: 100px;
+}
+
+
+/*Responsividade Geral*/
+
+.clear{
+    clear: both;
+}
+
+/*Iframe Responsivo*/
+.containerIframe1{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 50%;
+}
+
+.responsive-iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 90%;
+    height: 90%;
+}
+
+/*Menu Mobile*/
+
+.menu-mobile{
+    display: none;
+    float: right;
+}
+
+.menu-mobile h2{
+    cursor: pointer;
+}
+
+.menu-mobile ul{
+    display: none;
+    width: 100%;
+    background-color: white;
+    position: absolute;
+    left: 0;
+    top: 35px;
+    z-index: 999;
+    text-align: center;
+}
+
+.menu-mobile li{
+    padding: 8px 0;
+    border-bottom: 1px solid black;
+}
+
+.menu-mobile li.selected{
+    font-weight: bold;
+    color: #FDFFD2;
+    text-decoration: underline;
+}
+
+.menu-mobile a{
+    color: black;
+    text-decoration: none;
+    display: block;
+}
+
+@media screen and (max-width:500px) {
+    .menu-desk{
+        display: none;
+    }
+    .menu-mobile{
+        display: block;
+    }
+}
