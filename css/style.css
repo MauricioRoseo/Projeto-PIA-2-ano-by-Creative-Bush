@@ -71,6 +71,11 @@ header{
     padding-top: 20px;
 }
 
+.Intro-Forms {
+    background-color: #F6FFE0;
+    padding-top: 20px;
+}
+
 .imagemIntro {
     width: 53%; 
     height: 635px;   
@@ -97,6 +102,10 @@ header{
     width: 47%;
     float: right;
     font-size: 20px;
+}
+.introtxt-Forms {
+    font-size: 20px;
+    padding-left: 20px;
 }
 
 /* O que é */
