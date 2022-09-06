@@ -188,6 +188,32 @@ header{
     float: right;
 }
 
+/*Contato*/
+
+.contato{
+    width: 100%;
+}
+
+.contato form input[type=text]{
+    width: 45%;
+    padding: 15px;
+}
+.contato form input[type=email]{
+    width: 45%;
+    padding: 15px;
+}
+.contato form textarea{
+    width: 100%;
+    padding: 30px;
+}
+
+.right {
+    float: right;
+}
+
+.left {
+    float: left;
+}
 /*Motivação*/
 
 .Motivacao {
